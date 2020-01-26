@@ -10,7 +10,7 @@ class Rand extends React.Component {
   constructor(props) {
     super(props);
     this.handleClick = this.handleClick.bind(this);
-    this.state = { type:"Hello",number:-1, message: "WELCOME TO GSIT TRUTH OR DARE RANDOMIZER :)" };
+    this.state = { type:"Hello",number:-1, message: "WELCOME TO DTM TRUTH OR DARE RANDOMIZER :)" };
   }
 
   handleClick() {
