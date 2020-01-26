@@ -1,20 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './bca.png';
 import './App.css';
 import Rand from './Rand.js';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>
+      <div className="App-Container">
+        <img src={logo} className="logo" alt="logo" />
+        <h2 className="title">
             TRUTH OR DARE RANDOMIZER
         </h2>
-        <div>
-          <Rand></Rand>
-        </div>
-      </header>
-      
+        <Rand className="rand"/>
+        <p>© GSIT-DTM 2020</p>
+      </div>
     </div>
   );
 }
